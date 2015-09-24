@@ -1,0 +1,26 @@
+{
+  "name": "hapi-stormpath",
+  "version": "1.0.0",
+  "description": "Stormpath plugin for Hapi",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "lab -r console -t 100 -a code -m 10000"
+  },
+  "keywords": [
+    "hapi",
+    "stormpath",
+    "client",
+    "application"
+  ],
+  "author": "Dhi Aurrahman <diorahman@rockybars.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "code": "^1.5.0",
+    "hapi": "^10.0.1",
+    "hoek": "^2.16.3",
+    "lab": "^5.18.1"
+  },
+  "dependencies": {
+    "stormpath": "^0.12.2"
+  }
+}
